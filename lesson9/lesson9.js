@@ -34,7 +34,6 @@
 // }
 // document.body.append(ul)
 
-
 // - Є масив
 // let coursesAndDurationArray = [
 //     {title: 'JavaScript Complex', monthDuration: 5},
