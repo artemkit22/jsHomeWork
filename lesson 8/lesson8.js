@@ -9,22 +9,18 @@
 // }
 //
 // let mas = []
-//
-// for (let i = 0; i < 1; i++) {
-//
-//     let user1 = new User(1, "vasya", "kokos", "sdfasd@gmail.com", +380943568384);
-//     let user2 = new User(2, "anna", "rweqr", "sadf@gmail.com", +3804564536);
-//     let user3 = new User(3, "olya", "rtrt", "fgfgh@gmail.com", +38093453484);
-//     let user4 = new User(4, "kolya", "vdssadf", "fgh@gmail.com", +380941232138384);
-//     let user5 = new User(5, "petya", "qwer", "wer@gmail.com", +380943789384);
-//     let user6 = new User(6, "cxvxc", "zxcv", "asdf@gmail.com", +380567654);
-//     let user7 = new User(7, "kuik", "ert", "qwert@gmail.com", +38094897084);
-//     let user8 = new User(8, "tret", "cxzvsdf", "bcxsdf@gmail.com", +38094234384);
-//     let user9 = new User(9, "fgjt", "wsadf", "zfgnjhg@gmail.com", +38097894);
-//     let user10 = new User(10, "asd", "yrhgfh", "yhtjrhg@gmail.com", +3809490654);
-//
-//     mas.push(user1,user2,user3,user4,user5,user6,user7,user8,user9,user10)
-// }
+//     mas.push(
+//         new User(1, "vasya", "kokos", "sdfasd@gmail.com", +380943568384),
+//         new User(2, "anna", "rweqr", "sadf@gmail.com", +3804564536),
+//     new User(3, "olya", "rtrt", "fgfgh@gmail.com", +38093453484),
+//     new User(4, "kolya", "vdssadf", "fgh@gmail.com", +380941232138384),
+//     new User(5, "petya", "qwer", "wer@gmail.com", +380943789384),
+//     new User(6, "cxvxc", "zxcv", "asdf@gmail.com", +380567654),
+//     new User(7, "kuik", "ert", "qwert@gmail.com", +38094897084),
+//      new User(8, "tret", "cxzvsdf", "bcxsdf@gmail.com", +38094234384),
+//     new User(9, "fgjt", "wsadf", "zfgnjhg@gmail.com", +38097894),
+//     new User(10, "asd", "yrhgfh", "yhtjrhg@gmail.com", +3809490654)
+//     )
 // console.log(mas);
 //
 // //
@@ -60,23 +56,18 @@
 // }
 //
 // let xxx = []
-//
-// for (let i = 0; i < 1; i++) {
-//
-// let client1 = new Client(1,"kokos", "asdfsad", "asdjsaf@gmail.com", +380912495,["banana"]);
-// let client2 = new Client(2,"kokos", "asdfsad", "asdjsaf@gmail.com", +380912495,["banana", "orange", ]);
-// let client3 = new Client(3,"kokos", "asdfsad", "asdjsaf@gmail.com", +380912495,["banana", "orange", "kokos"]);
-// let client4 = new Client(4,"kokos", "asdfsad", "asdjsaf@gmail.com", +380912495,["banana", "orange", "kokos", "apple"]);
-// let client5 = new Client(5,"kokos", "asdfsad", "asdjsaf@gmail.com", +380912495,["banana", "orange", "kokos", "apple", "carrot"]);
-// let client6 = new Client(6,"kokos", "asdfsad", "asdjsaf@gmail.com", +380912495,["banana",]);
-// let client7 = new Client(7,"kokos", "asdfsad", "asdjsaf@gmail.com", +380912495,["banana", "kokos"]);
-// let client8 = new Client(8,"kokos", "asdfsad", "asdjsaf@gmail.com", +380912495,["banana", "orange", "melon", "watermalon", "kokos"]);
-// let client9 = new Client(9,"kokos", "asdfsad", "asdjsaf@gmail.com", +380912495,["banana", "orange", "kokos"]);
-// let client10 = new Client(10,"kokos", "asdfsad", "asdjsaf@gmail.com", +380912495,["banana", "melon", "watermalon", "lemon", "pineapple", "orange", "kokos"]);
-//
-// xxx.push(client1,client2,client3,client4,client5,client6,client7,client8,client9,client10);
-//
-// }
+// xxx.push(
+//     new Client(1,"kokos", "asdfsad", "asdjsaf@gmail.com", +380912495,["banana"]),
+//     new Client(2,"kokos", "asdfsad", "asdjsaf@gmail.com", +380912495,["banana", "orange", ]),
+//     new Client(3,"kokos", "asdfsad", "asdjsaf@gmail.com", +380912495,["banana", "orange", "kokos"]),
+//     new Client(4,"kokos", "asdfsad", "asdjsaf@gmail.com", +380912495,["banana", "orange", "kokos", "apple"]),
+//     new Client(5,"kokos", "asdfsad", "asdjsaf@gmail.com", +380912495,["banana", "orange", "kokos", "apple", "carrot"]),
+//     new Client(6,"kokos", "asdfsad", "asdjsaf@gmail.com", +380912495,["banana",]),
+//     new Client(7,"kokos", "asdfsad", "asdjsaf@gmail.com", +380912495,["banana", "kokos"]),
+//     new Client(8,"kokos", "asdfsad", "asdjsaf@gmail.com", +380912495,["banana", "orange", "melon", "watermalon", "kokos"]),
+//     new Client(9,"kokos", "asdfsad", "asdjsaf@gmail.com", +380912495,["banana", "orange", "kokos"]),
+//     new Client(10,"kokos", "asdfsad", "asdjsaf@gmail.com", +380912495,["banana", "melon", "watermalon", "lemon", "pineapple", "orange", "kokos"]),
+// );
 // console.log(xxx)
 //
 // // - Взяти масив (Client [] з попереднього завдання).Відсортувати його по кількості товарів в полі order по зростанню. (sort)
