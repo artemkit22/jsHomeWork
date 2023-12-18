@@ -12,7 +12,7 @@
 // div1.style.fontSize = '30px'
 // div1.innerText = 'sadfsdafsdaf'
 // document.body.appendChild(div1);
-//
+
 // console.log(div1)
 //
 // let copy = document.querySelectorAll('.wrap')
