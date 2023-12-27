@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cf6a4d7-f446-4a17-b504-28403652159a" name="Changes" comment=" homework9" />
+    <list default="true" id="2cf6a4d7-f446-4a17-b504-28403652159a" name="Changes" comment=" homework9">
+      <change afterPath="$PROJECT_DIR$/lesson 11/lesson11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 11/lesson11.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/lesson10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/lesson10.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9/lesson9.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/lesson9.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +77,11 @@
       <workItem from="1702845333945" duration="64000" />
       <workItem from="1702845413755" duration="1076000" />
       <workItem from="1702930491371" duration="3673000" />
+      <workItem from="1702934203657" duration="149000" />
+      <workItem from="1703006001538" duration="1039000" />
+      <workItem from="1703099075212" duration="8347000" />
+      <workItem from="1703269424383" duration="5091000" />
+      <workItem from="1703706423387" duration="2291000" />
     </task>
     <task id="LOCAL-00001" summary="homework1">
       <created>1700507993265</created>
@@ -133,7 +146,21 @@
       <option name="project" value="LOCAL" />
       <updated>1702934127383</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary=" homeworks9">
+      <created>1702934261703</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1702934261703</updated>
+    </task>
+    <task id="LOCAL-00011" summary=" homework9">
+      <created>1702934311535</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1702934311535</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +186,7 @@
     <MESSAGE value="homework6" />
     <MESSAGE value="homework8" />
     <MESSAGE value="homework9" />
+    <MESSAGE value=" homeworks9" />
     <MESSAGE value=" homework9" />
     <option name="LAST_COMMIT_MESSAGE" value=" homework9" />
   </component>
