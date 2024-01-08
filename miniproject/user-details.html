@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+
+</head>
+<body>
+
+<p></p>
+
+<script>
+
+    let url = new URL(location.href)
+    let params = url.searchParams.get('id')
+
+    let xxx = JSON.parse(params);
+
+    let p = document.getElementsByTagName('p')[0]
+    p.innerText = xxx.id + " " + xxx.name + " - " + xxx.username + " " + xxx.email
+
+
+
+</script>
+
+</body>
+</html>

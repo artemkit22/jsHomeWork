@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        button {
+            width: 100px;
+            height: 20px;
+            background-color: red;
+        }
+
+    </style>
+
+</head>
+<body>
+
+
+<script>
+
+
+let users = new URL('https://jsonplaceholder.typicode.com/users')
+fetch(users)
+    .then(response => response.json())
+    .then(value => {
+        for (const user of value) {
+
+
+
+            let div = document.createElement('div')
+            let a = document.createElement('a')
+
+
+            a.innerText = user.id + ' ' + user.name
+            a.href = 'user-details.html?id=' + JSON.stringify(user)
+
+
+            div.appendChild(a)
+            document.body.appendChild(div)
+        }
+    })
+
+console.log(users)
+
+</script>
+
+</body>
+</html>

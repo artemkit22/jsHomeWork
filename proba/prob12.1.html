@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1></h1>
+<p></p>
+
+<script>
+let url = new URL (location.href)
+    let params = url.searchParams.get('id')
+
+let xxx = JSON.parse(params)
+
+let h1 = document.getElementsByTagName("h1")
+h1.innerText = xxx.id[0]
+
+let p = document.getElementsByTagName('p')
+p.innerText = xxx.name[0]
+</script>
+
+</body>
+</html>
