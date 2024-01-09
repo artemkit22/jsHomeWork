@@ -5,11 +5,12 @@
     <title>Title</title>
 
 
-
 </head>
 <body>
 
 <p></p>
+
+<button id="btn">Post of current user</button>
 
 <script>
 
@@ -19,7 +20,38 @@
     let xxx = JSON.parse(params);
 
     let p = document.getElementsByTagName('p')[0]
-    p.innerText = xxx.id + " " + xxx.name + " - " + xxx.username + " " + xxx.email
+    p.innerText = xxx.id + " name is = " + xxx.name + "! User name is = " + xxx.username + "! Email is = " + xxx.email + "! Address is = " + xxx.address.street + "! " + xxx.address.suite + "! Suite is = " + xxx.address.city + "! City is = " + xxx.address.zipcode + "! Zipcode is = " + xxx.address.geo.lat + "! Lat is = " + xxx.address.geo.lng + "! lng is = " + xxx.phone + "! phone is = " + xxx.website + "! website is = " + xxx.company.name + "! company name is = " + xxx.company.catchPhrase + "! Catch Phrase is = " + xxx.company.bs
+
+
+    let btn = document.getElementById("btn")
+    let posts = new URL('https://jsonplaceholder.typicode.com/posts')
+
+
+        fetch(posts)
+            .then(response => response.json())
+            .then(value => {
+                for (const post of value) {
+
+
+                    let div = document.createElement('div')
+                    let p = document.createElement('a')
+
+                btn.onclick = function (){
+
+                     p.innerText = post.title
+
+                }
+
+                    div.appendChild(p)
+                    document.body.appendChild(div)
+                }
+
+
+            })
+
+        console.log(posts)
+
+
 
 
 
