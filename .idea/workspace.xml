@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cf6a4d7-f446-4a17-b504-28403652159a" name="Changes" comment="project">
-      <change afterPath="$PROJECT_DIR$/proba/sdfsdfsdf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proba/asdqwe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proba/sdfsdf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proba/ываываыва.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/miniproject/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/miniproject/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniproject/post-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/miniproject/post-details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/miniproject/user-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/miniproject/user-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proba/prob.html" beforeDir="false" afterPath="$PROJECT_DIR$/proba/prob.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +23,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -41,6 +44,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -87,7 +91,11 @@
       <workItem from="1704561843597" duration="586000" />
       <workItem from="1704562443929" duration="398000" />
       <workItem from="1704741846470" duration="3905000" />
-      <workItem from="1704826953397" duration="7136000" />
+      <workItem from="1704826953397" duration="7286000" />
+      <workItem from="1704993982950" duration="7118000" />
+      <workItem from="1705082116817" duration="7714000" />
+      <workItem from="1705179145331" duration="1413000" />
+      <workItem from="1705250678653" duration="1310000" />
     </task>
     <task id="LOCAL-00001" summary="homework1">
       <created>1700507993265</created>
@@ -187,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704745612700</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="project">
+      <created>1704834827187</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1704834827187</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

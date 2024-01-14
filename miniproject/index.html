@@ -5,11 +5,26 @@
     <title>Title</title>
 
     <style>
-        button {
-            width: 100px;
-            height: 20px;
-            background-color: red;
+        body{
+            display: flex;
+            flex-wrap: wrap;
+            width: 450px;
+            justify-content: center;
         }
+       .firstdiv {
+        background-color: red;
+        width: 220px;
+           height: 100px;
+           margin: 1px;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+       }
+       .firsta{
+            font-size:20px ;
+           color: white;
+       }
+
 
     </style>
 
@@ -19,7 +34,6 @@
 
 <script>
 
-
         let users = new URL('https://jsonplaceholder.typicode.com/users')
         fetch(users)
             .then(response => response.json())
@@ -28,18 +42,19 @@
 
 
                     let div = document.createElement('div')
+                    div.classList.add('firstdiv')
                     let a = document.createElement('a')
+                    a.classList.add('firsta')
 
 
                     a.innerText = user.id + ' ' + user.name
-                    a.href = 'user-details.html?id=' + JSON.stringify(user)
+                    a.href = `user-details.html?id=` + JSON.stringify(user)
 
 
                     div.appendChild(a)
                     document.body.appendChild(div)
                 }
             })
-
 
 console.log(users)
 

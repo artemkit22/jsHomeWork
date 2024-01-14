@@ -4,13 +4,46 @@
     <meta charset="UTF-8">
     <title>Title</title>
 
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 0;
+
+        }
+        .but{
+            width: 90%;
+            height: 50px;
+            background-color: red;
+            font-size: 30px;
+            border-radius: 20px;
+        }
+        .p{
+            margin: 0;
+        }
+            .div1{
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                height: 200px;
+                justify-content: center;
+
+            }
+        .a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+            margin: 10px;
+            background-color: rgba(255, 0, 0, 0.17);
+        }
+
+    </style>
 
 </head>
 <body>
-
-<p></p>
-
-<button id="btn">Post of current user</button>
 
 <script>
 
@@ -19,41 +52,53 @@
 
     let xxx = JSON.parse(params);
 
-    let p = document.getElementsByTagName('p')[0]
-    p.innerText = xxx.id + " name is = " + xxx.name + "! User name is = " + xxx.username + "! Email is = " + xxx.email + "! Address is = " + xxx.address.street + "! " + xxx.address.suite + "! Suite is = " + xxx.address.city + "! City is = " + xxx.address.zipcode + "! Zipcode is = " + xxx.address.geo.lat + "! Lat is = " + xxx.address.geo.lng + "! lng is = " + xxx.phone + "! phone is = " + xxx.website + "! website is = " + xxx.company.name + "! company name is = " + xxx.company.catchPhrase + "! Catch Phrase is = " + xxx.company.bs
+    function foo(xxx) {
+        for (const xxxKey in xxx) {
+            if (typeof xxx[xxxKey]==='object'&& xxx[xxxKey]!==null){
+                let p = document.createElement('p')
+                p.classList.add('p')
+                p.innerText = `${xxxKey} - `
+                document.body.append(p)
+                foo(xxx[xxxKey])
+
+            }
+            if (typeof xxx[xxxKey] !=='object'){
+                let px = document.createElement('p')
+                px.innerText = `${xxxKey} - ${xxx[xxxKey]}`
+                document.body.append(px)
+
+            }
+        }
+    }
+
+foo(xxx)
 
 
-    let btn = document.getElementById("btn")
-    let posts = new URL('https://jsonplaceholder.typicode.com/posts')
+    let btn = document.createElement('button')
+    btn.classList.add('but')
+    btn.innerText = 'Post of current user'
 
 
-        fetch(posts)
-            .then(response => response.json())
+    btn.onclick = function (){
+        let div1 = document.createElement('div')
+        div1.classList.add('div1')
+        fetch(`https://jsonplaceholder.typicode.com/users/${xxx.id}/posts`)
+            .then(response =>response.json())
             .then(value => {
-                for (const post of value) {
+                for (const item of value) {
+                let a = document.createElement("a")
 
+                    a.classList.add('a')
+                a.innerText = item.id + " - " + item.title
+                a.href = `post-details.html?postId=${item.id}`
 
-                    let div = document.createElement('div')
-                    let p = document.createElement('a')
-
-                btn.onclick = function (){
-
-                     p.innerText = post.title
-
+                    div1.append(a)
                 }
-
-                    div.appendChild(p)
-                    document.body.appendChild(div)
-                }
-
 
             })
-
-        console.log(posts)
-
-
-
-
+document.body.append(div1)
+    }
+document.body.append(btn)
 
 </script>
 
